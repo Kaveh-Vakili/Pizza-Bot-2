@@ -7,7 +7,7 @@ intents:
   - order_pizza
 
 entities:
-  -food
+  - food
 actions:
 - action_extract_food_entity
 
