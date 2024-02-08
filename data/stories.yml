@@ -6,25 +6,17 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+ 
 
-- story: sad path 1
+- story: express thanks 
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - intent: thanks
+  - action: utter_thanks
+ 
 
-- story: sad path 2
+
+- story: Order a pizza 
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: order_pizza
+  - action: utter_order_pizza
+ 
