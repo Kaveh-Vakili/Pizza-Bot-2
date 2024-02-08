@@ -18,5 +18,5 @@ stories:
 - story: Order a pizza 
   steps:
   - intent: order_pizza
-  - action: utter_order_pizza
+  - action: action_extract_food_entity
  
